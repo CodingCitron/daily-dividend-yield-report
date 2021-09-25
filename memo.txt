@@ -60,5 +60,14 @@ Continuous Deployment는 배포까지 자동화되어 사용자에게 바로 제
 CI/CD는 코드 수정부터 배포까지의 과정들이 자동화 하는 것인데 그런 만큼 테스트 품질이 매우 중요하며 문제 발생 시 실시간으로 알람을 받을 수 있는 환경의 조성도 중요합니다.
 CI/CD를 도와주는 툴의 종류도 다양한데 Jenkins, Circle CI, Spinnaker, Gitlab CI/CD가 있습니다.
 
+CI/CD 하기 Github Action 자동화, CI/CD, ymal, cron 표현식
+이 프로젝트 repository의 settings에 가면 secrets > new repository secret
+여기에서 env 값을 입력해서 넣어주면 된다.
 
+workflow yml file 작성
+이 프로젝트의 repository의 action으로 간다
+현재 프로젝트의 언어를 선택함 ex)node.js setup workflow
+이곳에서 workflow 파일을 수정할 수 있다. 로컬 환경에서 수정할수도 있다.
 
+크론 표현식
+https://zamezzz.tistory.com/197
